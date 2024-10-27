@@ -1,0 +1,77 @@
+    1  mkdir pract
+    2  cd pract
+    3  echo -e "СобакиnКошкиnХоямки" > Домашние_животные.txt
+    4  echo -e "ЛошадиnВерблюдыnОслы" > Вьючные_животные.txt
+    5  cat Домашние_животные.txt Вьючные_животные.txt > Все_животные.txt
+    6  cat Все_животные.txt 
+    7  clear Все_животные.txt 
+    8  rm Все_животные.txt 
+    9  ls-la
+   10  ls-lm
+   11  ls- la
+   12  ls -l
+   13  rm Вьючные_животные.txt
+   14  rm Домашние_животные.txt
+   15  ls -l
+   16  cat <<EOT>> ./homeanimal
+Кошка
+Собаки
+Хомяки
+EOT
+
+   17  cat <<EOT>> ./homeanimal
+Кошка
+Собаки
+Хомяки
+EOT
+
+   18  ls-la
+   19  ls-l
+   20  ls -la
+   21  rm homeanimal 
+   22  ls -la
+   23  cat <<EOF > Домашние_животные.txt
+Собаки
+Кошки
+Хомяки
+EOF
+
+   24  cat <<EOF > Вьючные_животные.txt
+
+Лошади
+Верблюды
+Ослы
+EOF
+
+   25  cat Домашние_животные.txt Вьючные_животные.txt > Все_животные.txt
+   26  cat Все_животные.txt 
+   27  mv Все_животные.txt Друзья_человека.txt
+   28  git init
+   29  apt install git
+   30  sudo apt install git
+   31  ls -la
+   32  git init
+   33  git add .
+   34  git commit -m "Создание файлов с животными"
+   35  git config --global user.email "il_firsov@mail.ru"
+   36  git config --global user.name "NOTxV0Ltz"
+   37  git commit -m "Создание файлов с животными"
+   38  mkdir Животные
+   39  mv Друзья_человека.txt Животные/
+   40  git add Животные/Друзья_человека.txt 
+   41  git commit -m "Перемещение Файла в директорию Животные"
+   42  sudo apt update
+   43  sudo apt install mysql-server
+   44  git add .
+   45  git commit -m "Установка MySQL"
+   46  sudo dpkg -i ./slack-desktop-4.15.0-amd64.deb
+   47  sudo dpkg -i ./nginx_1.14.0-0ubuntu1.6_all.ded
+   48  sudo dpkg -i ./nginx_1.14.0-0ubuntu1.6_all.deb
+   49  wget https://dev.mysql.com/get/mysql-apt-config_0.8.22-1_all.deb
+   50  sudo dpkg -i mysql-apt-config_0.8.22-1_all.deb
+   51  sudo dpkg -r mysql-apt-config_0.8.22-1_all
+   52  sudo dpkg -r mysql-apt-config
+   53  git add .
+   54  git commit -m "Установка и удаление deb-пакета"
+   55  history
+   56  history > история_команд.txt
